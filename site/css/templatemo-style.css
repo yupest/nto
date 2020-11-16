@@ -1471,7 +1471,7 @@ ul.archive-list li h3 a:hover {
   height: 425px;
 }
 
-.chart .pipe {
+    .chart .pipe {
      background: #eee none repeat scroll 0 0;
      box-shadow: 3px 3px 3px 0 rgb(200, 200, 200) inset;
     }
@@ -1515,5 +1515,5 @@ ul.archive-list li h3 a:hover {
     }
     .review {
       font-size: 8pt;
-      min-height: 66px;
+      min-height: 230px;
     }
