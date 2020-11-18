@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+	<html>
+    	<head>
+    		
+    	</head>
+    	<body>
+    		<h3>Введите последовательно числа через пробел для значений: waste cafe wifi shop parking post_office tir scaladrom polyclinic</h3>
+    		<div class="items">
+			  <input type="" name="" id="elem1" placeholder="">
+			  <input type='button' id = 'butt' value='Проверить'></input>
+			  <p id = 'str'></p>
+			  <script type="text/javascript">
+
+			  	// #Функция проверки
+				function check(answer){
+					maxspend = 282000;
+					var mwaste = answer[0]*7000;
+				    var mcafe = answer[1]*5000;
+				    var mwifi = answer[2]*15000;
+				    var mshop = answer[3]*15000;
+				    var mparking = answer[4]*8000 ;
+				    var mpost_office = answer[5]*7000;
+				    var mtir = answer[6]*1500;
+				    var mscaladrom = answer[7]*5000;
+				    var mpolyclinic = answer[8]*12000;
+				    spends = [mwaste, mcafe, mwifi, mshop, mparking, mpost_office, mtir, mscaladrom, mpolyclinic];
+				    sum = spends.reduce(function(a, b){return a+b;});
+
+				    max_happy = answer[0]*12 + answer[1]*12 + answer[2]*12 + answer[3]*17 + answer[4]*16 + answer[5]*21 + answer[6]*16 + answer[7]*18 + answer[8]*15;
+    				other_centers = [550, 450, 500, 480, max_happy];
+
+					if (sum>maxspend) {
+						document.getElementById('str').innerHTML="Не верно, попробуйте еще раз";
+					}
+					else if (Math.max.apply(null, other_centers.slice(0,4)) > other_centers[4]){
+						document.getElementById('str').innerHTML="Не верно, попробуйте еще раз";
+					}
+				    else{					  
+					  	document.getElementById('str').innerHTML="13927469";
+					}
+				};
+
+    			butt.onclick = function() {
+				    var val = document.getElementById('elem1').value.split(' ');
+				    var b = val.map(function (item) {
+					  return parseFloat(item);
+					});
+				    console.log(b);
+				    check(b)
+				};
+    		</script>
+			</div>
+    	</body>
+    </html>
