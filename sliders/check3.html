@@ -4,7 +4,18 @@
     		
     	</head>
     	<body>
-    		<h3>Введите последовательно числа через пробел для значений: waste cafe wifi shop parking post_office tir scaladrom polyclinic</h3>
+    		<h3>Введите последовательно числа через пробел для значений: </h3>
+    			<ul>
+    				<li>waste</li>
+    				<li>shop</li>
+    				<li>wifi</li>
+    				<li>bowling</li>
+    				<li>cinema</li>
+    				<li>playground</li>
+    				<li>carting</li>
+    				<li>carsharing</li>
+    				<li>rink</li>
+    			</ul>
     		<div class="items">
 			  <input type="" name="" id="elem1" placeholder="">
 			  <input type='button' id = 'butt' value='Проверить'></input>
@@ -17,24 +28,25 @@
 					var mwaste = answer[0]*7000;
 				    var mcafe = answer[1]*5000;
 				    var mwifi = answer[2]*15000;
-				    var mshop = answer[3]*15000;
+				    var mshop = answer[3]*7000;
 				    var mparking = answer[4]*8000 ;
-				    var mpost_office = answer[5]*7000;
-				    var mtir = answer[6]*1500;
-				    var mscaladrom = answer[7]*5000;
-				    var mpolyclinic = answer[8]*12000;
+				    var mpost_office = answer[5]*12000;
+				    var mtir = answer[6]*5000;
+				    var mscaladrom = answer[7]*15000;
+				    var mpolyclinic = answer[8]*1500;
 				    spends = [mwaste, mcafe, mwifi, mshop, mparking, mpost_office, mtir, mscaladrom, mpolyclinic];
 				    sum = spends.reduce(function(a, b){return a+b;});
 
-				    max_happy = answer[0]*12 + answer[1]*12 + answer[2]*12 + answer[3]*17 + answer[4]*16 + answer[5]*21 + answer[6]*16 + answer[7]*18 + answer[8]*15;
+				    max_happy = answer[0]*12 + answer[1]*12 + answer[2]*12 + answer[3]*16 + answer[4]*17 + answer[5]*21 + answer[6]*18 + answer[7]*21 + answer[8]*11;
     				other_centers = [550, 450, 500, 480, max_happy];
-    				console.log(answer, spends);
-					if ((sum<maxspend) && (Math.max.apply(null, other_centers.slice(0,4)) < other_centers[4])){
-						document.getElementById('str').innerHTML="89835674";
+    				console.log(sum);
+    				console.log(Math.max.apply(null, other_centers.slice(0,4)) > other_centers[4]);
+					if (isNaN(sum) || isNaN(max_happy) || (sum>maxspend) || (Math.max.apply(null, other_centers.slice(0,4)) > other_centers[4])){
+						document.getElementById('str').innerHTML="Не верно, попробуйте еще раз";
 					}
 				    else{					  
-					  	document.getElementById('str').innerHTML="Не верно, попробуйте еще раз";
-					};
+					  	document.getElementById('str').innerHTML="89835674";
+					}
 				};
 
     			butt.onclick = function() {
