@@ -1,0 +1,124 @@
+.stat-pet {
+    margin: 30px 20px;
+    display: table;
+}
+@media screen and (max-width: 1040px)
+.spo {
+    width: 28%;
+}
+.spo {
+    width: 288px;
+    float: left;
+    margin: 0 20px 15px;
+    font-size: 14px;
+}
+body {
+    height: 100%;
+    width: 100%;
+    min-width: 1024px;
+    font-family: Roboto, Arial;
+    font-size: 13px;
+    color: #000;
+    background: none repeat scroll 0 0 #F5F5F5;
+}
+.s-title {
+    font-weight: bold;
+    line-height: 20px;
+}
+.s-text {
+    line-height: 30px;
+}
+.progress {
+    height: 20px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+.pet-head {
+    margin: 60px 40px 60px 40px;
+    display: table;
+}
+.pet-ava {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin-top: 30px;
+}
+.pet-ava img {
+    width: 100%;
+}
+.podpis {
+    margin: 0 20px;
+    color: #777;
+    display: inline-block;
+}
+ul {
+    font-size: 17px;
+    margin: 25px 0 15px 40px;
+    list-style-type: none;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    background-repeat: no-repeat;
+    padding: 0 0 15px 30px;
+
+    line-height: 26px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjAwJyBoZWlnaHQ9JzIwMCcgZmlsbD0iI2Y0MDkwOSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4yIiBiYXNlUHJvZmlsZT0idGlueSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj48cGF0aCBkPSJNMzYuMjUsMzVjNi4yMDMsMCwxMS4yNS01LjYwNywxMS4yNS0xMi41UzQyLjQ1MywxMCwzNi4yNSwxMFMyNSwxNS42MDcsMjUsMjIuNVMzMC4wNDcsMzUsMzYuMjUsMzV6IE0zNi4yNSwxNSAgYzMuNDQ2LDAsNi4yNSwzLjM2NCw2LjI1LDcuNVMzOS42OTYsMzAsMzYuMjUsMzBTMzAsMjYuNjM2LDMwLDIyLjVTMzIuODA0LDE1LDM2LjI1LDE1eiIvPjxwYXRoIGQ9Ik0xNi4yNSw1NWM2LjIwMywwLDExLjI1LTUuNjA3LDExLjI1LTEyLjVTMjIuNDUzLDMwLDE2LjI1LDMwUzUsMzUuNjA3LDUsNDIuNVMxMC4wNDcsNTUsMTYuMjUsNTV6IE0xNi4yNSwzNSAgYzMuNDQ2LDAsNi4yNSwzLjM2NCw2LjI1LDcuNVMxOS42OTYsNTAsMTYuMjUsNTBTMTAsNDYuNjM2LDEwLDQyLjVTMTIuODA0LDM1LDE2LjI1LDM1eiIvPjxwYXRoIGQ9Ik04My43NSwzMGMtNi4yMDMsMC0xMS4yNSw1LjYwNy0xMS4yNSwxMi41Uzc3LjU0Nyw1NSw4My43NSw1NVM5NSw0OS4zOTMsOTUsNDIuNVM4OS45NTMsMzAsODMuNzUsMzB6IE04My43NSw1MCAgYy0zLjQ0NiwwLTYuMjUtMy4zNjQtNi4yNS03LjVzMi44MDQtNy41LDYuMjUtNy41UzkwLDM4LjM2NCw5MCw0Mi41Uzg3LjE5Niw1MCw4My43NSw1MHoiLz48cGF0aCBkPSJNNjMuNzUsMzVDNjkuOTUzLDM1LDc1LDI5LjM5Myw3NSwyMi41UzY5Ljk1MywxMCw2My43NSwxMFM1Mi41LDE1LjYwNyw1Mi41LDIyLjVTNTcuNTQ3LDM1LDYzLjc1LDM1eiBNNjMuNzUsMTUgIGMzLjQ0NiwwLDYuMjUsMy4zNjQsNi4yNSw3LjVTNjcuMTk2LDMwLDYzLjc1LDMwcy02LjI1LTMuMzY0LTYuMjUtNy41UzYwLjMwNCwxNSw2My43NSwxNXoiLz48cGF0aCBkPSJNMzQuNDQzLDQ2Ljk0NkwyNC4wNTYsNTkuOTNDMjEuNDMsNjMuMjEyLDIwLDY3LjI5LDIwLDcxLjQ5MkMyMCw4MS43MTQsMjguMjg2LDkwLDM4LjUwOCw5MGgyMi45ODQgIEM3MS43MTQsOTAsODAsODEuNzE0LDgwLDcxLjQ5MmMwLTQuMjAzLTEuNDMtOC4yOC00LjA1Ni0xMS41NjJMNjUuNTU3LDQ2Ljk0NkM2Mi4wNDUsNDIuNTU2LDU2LjcyNyw0MCw1MS4xMDUsNDBoLTIuMjA5ICBDNDMuMjczLDQwLDM3Ljk1NSw0Mi41NTYsMzQuNDQzLDQ2Ljk0NnogTTQ4Ljg5NSw0Ny41aDIuMjA5YzMuMzYyLDAsNi40OTUsMS41MDYsOC41OTYsNC4xMzFsMTAuMzg4LDEyLjk4NCAgYzEuNTU2LDEuOTQ0LDIuNDEyLDQuMzg3LDIuNDEyLDYuODc3YzAsNi4wNy00LjkzOCwxMS4wMDgtMTEuMDA4LDExLjAwOEgzOC41MDhjLTYuMDcsMC0xMS4wMDgtNC45MzgtMTEuMDA4LTExLjAwOCAgYzAtMi40OSwwLjg1Ny00LjkzMiwyLjQxMi02Ljg3N0w0MC4zLDUxLjYzMUM0Mi40LDQ5LjAwNiw0NS41MzMsNDcuNSw0OC44OTUsNDcuNXoiLz48L3N2Zz4=);
+    background-size: 24px;
+}
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse; 
+}
+.quality {
+    background: #d1f0c2;
+}
+.measure {
+    background: #9FC7E8;
+}
+.table th {
+    font-weight: bold;
+    padding: 5px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+}
+.table td {
+    border: 1px solid #dddddd;
+    padding: 5px;
+}
+
+h1 {
+    margin: 0 10px;
+    font-size: 32px;
+    font-weight: 700;
+}
+div {
+    display: block;
+}
+.progress-bar {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #f40909;
+    transition: width .6s ease;
+    transition-duration: 2s;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 15%);
+}
