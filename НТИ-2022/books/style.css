@@ -1,0 +1,134 @@
+.stat-book {
+    margin: 21px 20px;
+    display: table;
+    float: left;
+}
+.spo {
+    width: 200px;
+    /* float: left; */
+    margin: 2px -40px 0;
+    /* font-size: 14px; */
+    /* height: 15px;*/
+}
+body {
+    height: 100%;
+    width: 100%;
+    min-width: 1024px;
+    font-family: Roboto, Arial;
+    font-size: 13px;
+    color: #000;
+    background: none repeat scroll 0 0 #F5F5F5;
+}
+.s-title {
+    /*font-weight: bold;*/
+    line-height: 20px;
+    float: left;
+    width: 150px;
+    /*font-size: 14px;*/
+}
+.s-text {
+    font-weight: bold;
+    line-height: 20px;
+    float: right;
+    margin-left: 10px;
+    margin-top: 3px;
+    /*font-size: 14px;*/
+}
+.emotions {
+
+}
+.progress {
+    height: 28px;
+    /*margin-bottom: 15px;*/
+    overflow: hidden;
+    margon-left: 175px;
+    background-color: #ebebeb;
+    border-radius: 4px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0;
+    /*box-sizing: border-box;*/
+}
+.book-head {
+    margin: 30px 40px 0 100px;
+    display: table;
+}
+.book-ava {
+    width: 235px;
+    /*height: 220px;*/
+    /*border-radius: 50%;*/
+    overflow: hidden;
+    float: left;
+    margin: 36px -2px 0 10px;
+}
+.book-ava img {
+    width: 100%;
+}
+.podpis {
+    margin: 0 20px;
+    color: #777;
+    display: inline-block;
+}
+
+ul {
+    font-size: 17px;
+    margin: 25px 0 15px 30px;
+    list-style-type: none;
+    width: 180px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    background-repeat: no-repeat;
+    padding: 0 0 15px 50px;
+    line-height: 30px;
+    background-size: 35px;
+}
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse; 
+}
+.quality {
+    background: #ace4f3;
+}
+.measure {
+    background: #C3F3CB;
+}
+.table th {
+    font-weight: bold;
+    padding: 5px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+}
+.table td {
+    border: 1px solid #dddddd;
+    padding: 5px;
+}
+
+h1 {
+    margin: 0 10px;
+    font-size: 32px;
+    font-weight: 700;
+}
+div {
+    display: block;
+}
+.progress-bar {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #811f23;
+    transition: width .6s ease;
+    transition-duration: 2s;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 15%);
+}
