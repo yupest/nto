@@ -6,7 +6,7 @@ from aiogram.utils import executor
 import random
 
 # Инициализируем бота
-bot = Bot(token='5775826366:AAHpzS1C7JP8lZ8dnMlob36tht-DwK8MLB0')
+bot = Bot(token='***')
 
 storage = MemoryStorage()
 # Инициализируем диспетчер сообщений
