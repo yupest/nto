@@ -12,5 +12,5 @@
 
 Выберем шаблон `Flask` - это библиотека для создания веб-приложения на `Python`. Назовите проект, например `test-webhook`.
 
-![image](https://github.com/yupest/nto/assets/69419904/8544161e-4a1a-4729-9fd0-09f005bcfa09)
+![image](https://github.com/yupest/nto/blob/master/NTO-2023/267651147-8544161e-4a1a-4729-9fd0-09f005bcfa09.png)
 
