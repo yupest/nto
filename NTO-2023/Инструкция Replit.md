@@ -18,7 +18,7 @@
 
 ![image](https://github.com/yupest/nto/blob/master/NTO-2023/267651147-8544161e-4a1a-4729-9fd0-09f005bcfa09.png)
 
-Допишим шаблон кода необхожимым и нажмем `Start`.
+Допишим шаблон кода необхожимым и нажмем `Start` (или `Run`).
 
 Пример кода:
 ```python
@@ -71,6 +71,16 @@ app.run(host='0.0.0.0', port=5000)
 Скопируем ссылку в проекте Replit
 
 ![](https://ucarecdn.com/b672e90e-2e97-48cd-aaaa-7f72913d8acd/)
+
+!!! ЕСЛИ ССЫЛКИ НЕТ
+
+Нажмем `New Tab`
+
+![](https://i.ibb.co/GvCJL7W/image.png)
+
+А затем скопируем ссылку в новом окне в адресной строке:
+
+![](https://i.ibb.co/JmGBLnK/image.png)
 
 Скопированная ссылка необходима при настройке `Webhook` в разделе `Fulfillment` в `Dialogflow`. Допишем к ней `/webhook` и не забудьте сохраниться (`Save` внизу страницы)
 ![](https://ucarecdn.com/0f9e88f9-d2b3-4eba-8d9d-5b8319a65109/)
