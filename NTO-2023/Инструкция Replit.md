@@ -89,12 +89,12 @@ app.run(host='0.0.0.0', port=5000)
 ## Настройка Dialogflow
 
 <ul>
-	<li>Проверим сущность <code>Genres</code>, добавим необходимые в соответствии со <a href="https://yupest2.pythonanywhere.com/api/v1.0/movies/genres" rel="noopener noreferrer nofollow">списком жанров по API</a>.</li>
+	<li>Создайте свою сущность при необходимости, чтобы программа воспринимала ключевые фразы как параметры. Разберемся на примере фильмов. Проверим сущность <code>Genres</code>, добавим необходимые в соответствии со <a href="https://yupest2.pythonanywhere.com/api/v1.0/movies/genres" rel="noopener noreferrer nofollow">списком жанров по API</a>.</li>
 	<li>В интенте <code>Жанр</code> добавим тренировочные фразы для всех заданных жанров. Если в тренировочных фразах интент определился неверно или не определился вовсе, его можно назначить, кликнув на <code>Entity</code>:<br />
 	<img alt="" height="188" name="image.png" src="https://ucarecdn.com/4258f793-b7c1-4840-aee2-330af8d1e78f/" width="501" /></li>
 	<li>В разделе Action and parameters замените <code>Parameter name</code> на <code>genre</code> или такой же, как название параметра в коде<br />
 	<img alt="" height="449" name="image.png" src="https://ucarecdn.com/0e99d3c9-644a-40b5-b00e-89ee83f94054/" width="556" /></li>
-	<li>В разделе Fulfillment включим первый таб:<br />
+	<li>В том интенте, в котором агент должен отвечать динамическим ответом, в разделе Fulfillment включим первый таб:<br />
 	<img alt="" height="101" name="image.png" src="https://ucarecdn.com/0e6c39e0-4b3a-4f8b-9ac6-79c1cd36af90/" width="488" /></li>
 	
 Приступим к тестированию:
