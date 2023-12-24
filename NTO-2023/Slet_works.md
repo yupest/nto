@@ -16,4 +16,4 @@
 - [Бот](https://t.me/nto_jun_ii_bot)
 - [Веб-сказка](https://yupest.github.io/nto/NTO-2023/slet5.html)
 
-
+### [Джуниор - слет 2022](https://miro.com/app/board/uXjVP4bxoRk=/?share_link_id=898335957077)
